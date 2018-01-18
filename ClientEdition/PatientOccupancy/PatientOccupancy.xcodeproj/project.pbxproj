@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3828A3331B7FD147004C84B9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828A3321B7FD147004C84B9 /* Date.swift */; };
+		38528EF01B7EC744000F02DA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38528EEF1B7EC744000F02DA /* CustomTableViewCell.swift */; };
+		38528EF21B7EC98C000F02DA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38528EF11B7EC98C000F02DA /* String.swift */; };
+		38528EF41B7F1047000F02DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38528EF31B7F1047000F02DA /* LoginViewController.swift */; };
+		38662BA21B7E4870005973B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38662BA11B7E4870005973B1 /* AppDelegate.swift */; };
+		38662BA71B7E4870005973B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38662BA51B7E4870005973B1 /* Main.storyboard */; };
+		38662BA91B7E4870005973B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38662BA81B7E4870005973B1 /* Images.xcassets */; };
+		38662BAC1B7E4870005973B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38662BAA1B7E4870005973B1 /* LaunchScreen.xib */; };
+		38662BB81B7E4870005973B1 /* PatientOccupancyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38662BB71B7E4870005973B1 /* PatientOccupancyTests.swift */; };
+		38662BC61B7E4A73005973B1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BC11B7E4A73005973B1 /* Bolts.framework */; };
+		38662BC71B7E4A73005973B1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BC21B7E4A73005973B1 /* Parse.framework */; };
+		38662BC81B7E4A73005973B1 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BC31B7E4A73005973B1 /* ParseCrashReporting.framework */; };
+		38662BC91B7E4A73005973B1 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BC41B7E4A73005973B1 /* ParseFacebookUtils.framework */; };
+		38662BCA1B7E4A73005973B1 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BC51B7E4A73005973B1 /* ParseUI.framework */; };
+		38662BCC1B7E4AAC005973B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BCB1B7E4AAC005973B1 /* AudioToolbox.framework */; };
+		38662BCE1B7E4AB7005973B1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BCD1B7E4AB7005973B1 /* CFNetwork.framework */; };
+		38662BD01B7E4ACA005973B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BCF1B7E4ACA005973B1 /* CoreGraphics.framework */; };
+		38662BD21B7E4ADA005973B1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BD11B7E4ADA005973B1 /* CoreLocation.framework */; };
+		38662BD41B7E4AFE005973B1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BD31B7E4AFE005973B1 /* MobileCoreServices.framework */; };
+		38662BD61B7E4B0A005973B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BD51B7E4B0A005973B1 /* QuartzCore.framework */; };
+		38662BD81B7E4B1A005973B1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BD71B7E4B1A005973B1 /* Security.framework */; };
+		38662BDA1B7E4B22005973B1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BD91B7E4B22005973B1 /* StoreKit.framework */; };
+		38662BDC1B7E4B2C005973B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BDB1B7E4B2C005973B1 /* SystemConfiguration.framework */; };
+		38662BDE1B7E4B37005973B1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BDD1B7E4B37005973B1 /* libz.dylib */; };
+		38662BE01B7E4B40005973B1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38662BDF1B7E4B40005973B1 /* libsqlite3.dylib */; };
+		38662BE71B7E51A5005973B1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38662BE61B7E51A5005973B1 /* TableViewController.swift */; };
+		38662BE91B7E5E12005973B1 /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38662BE81B7E5E12005973B1 /* CAGradientLayer.swift */; };
+		38FC57661B813D4B002D30E4 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57441B813D4B002D30E4 /* IQNSArray+Sort.m */; };
+		38FC57671B813D4B002D30E4 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57461B813D4B002D30E4 /* IQUITextFieldView+Additions.m */; };
+		38FC57681B813D4B002D30E4 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57481B813D4B002D30E4 /* IQUIView+Hierarchy.m */; };
+		38FC57691B813D4B002D30E4 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC574A1B813D4B002D30E4 /* IQUIViewController+Additions.m */; };
+		38FC576A1B813D4B002D30E4 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC574C1B813D4B002D30E4 /* IQUIWindow+Hierarchy.m */; };
+		38FC576B1B813D4B002D30E4 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57511B813D4B002D30E4 /* IQKeyboardManager.m */; };
+		38FC576C1B813D4B002D30E4 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57531B813D4B002D30E4 /* IQKeyboardReturnKeyHandler.m */; };
+		38FC576D1B813D4B002D30E4 /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57561B813D4B002D30E4 /* IQSegmentedNextPrevious.m */; };
+		38FC576E1B813D4B002D30E4 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57591B813D4B002D30E4 /* IQTextView.m */; };
+		38FC576F1B813D4B002D30E4 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC575C1B813D4B002D30E4 /* IQBarButtonItem.m */; };
+		38FC57701B813D4B002D30E4 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC575E1B813D4B002D30E4 /* IQTitleBarButtonItem.m */; };
+		38FC57711B813D4B002D30E4 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57601B813D4B002D30E4 /* IQToolbar.m */; };
+		38FC57721B813D4B002D30E4 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC57621B813D4B002D30E4 /* IQUIView+IQKeyboardToolbar.m */; };
+		38FC57731B813D4B002D30E4 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38FC57651B813D4B002D30E4 /* IQKeyboardManager.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38662BB21B7E4870005973B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38662B941B7E486F005973B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38662B9B1B7E486F005973B1;
+			remoteInfo = PatientOccupancy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3828A3321B7FD147004C84B9 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		38528EEF1B7EC744000F02DA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		38528EF11B7EC98C000F02DA /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		38528EF31B7F1047000F02DA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		38662B9C1B7E4870005973B1 /* PatientOccupancy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientOccupancy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38662BA01B7E4870005973B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38662BA11B7E4870005973B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38662BA61B7E4870005973B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38662BA81B7E4870005973B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38662BAB1B7E4870005973B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38662BB11B7E4870005973B1 /* PatientOccupancyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientOccupancyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38662BB61B7E4870005973B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38662BB71B7E4870005973B1 /* PatientOccupancyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientOccupancyTests.swift; sourceTree = "<group>"; };
+		38662BC11B7E4A73005973B1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = PatientOccupancy/Bolts.framework; sourceTree = "<group>"; };
+		38662BC21B7E4A73005973B1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = PatientOccupancy/Parse.framework; sourceTree = "<group>"; };
+		38662BC31B7E4A73005973B1 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = PatientOccupancy/ParseCrashReporting.framework; sourceTree = "<group>"; };
+		38662BC41B7E4A73005973B1 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = PatientOccupancy/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		38662BC51B7E4A73005973B1 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = PatientOccupancy/ParseUI.framework; sourceTree = "<group>"; };
+		38662BCB1B7E4AAC005973B1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		38662BCD1B7E4AB7005973B1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		38662BCF1B7E4ACA005973B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38662BD11B7E4ADA005973B1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		38662BD31B7E4AFE005973B1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		38662BD51B7E4B0A005973B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		38662BD71B7E4B1A005973B1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		38662BD91B7E4B22005973B1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		38662BDB1B7E4B2C005973B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		38662BDD1B7E4B37005973B1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		38662BDF1B7E4B40005973B1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		38662BE31B7E4D6F005973B1 /* PatientOccupancy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatientOccupancy-Bridging-Header.h"; sourceTree = "<group>"; };
+		38662BE61B7E51A5005973B1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		38662BE81B7E5E12005973B1 /* CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayer.swift; sourceTree = "<group>"; };
+		38FC57431B813D4B002D30E4 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		38FC57441B813D4B002D30E4 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		38FC57451B813D4B002D30E4 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		38FC57461B813D4B002D30E4 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		38FC57471B813D4B002D30E4 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		38FC57481B813D4B002D30E4 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		38FC57491B813D4B002D30E4 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		38FC574A1B813D4B002D30E4 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		38FC574B1B813D4B002D30E4 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		38FC574C1B813D4B002D30E4 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		38FC574E1B813D4B002D30E4 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		38FC574F1B813D4B002D30E4 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		38FC57501B813D4B002D30E4 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		38FC57511B813D4B002D30E4 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		38FC57521B813D4B002D30E4 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		38FC57531B813D4B002D30E4 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		38FC57551B813D4B002D30E4 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		38FC57561B813D4B002D30E4 /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		38FC57581B813D4B002D30E4 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		38FC57591B813D4B002D30E4 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		38FC575B1B813D4B002D30E4 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		38FC575C1B813D4B002D30E4 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		38FC575D1B813D4B002D30E4 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		38FC575E1B813D4B002D30E4 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		38FC575F1B813D4B002D30E4 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		38FC57601B813D4B002D30E4 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		38FC57611B813D4B002D30E4 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		38FC57621B813D4B002D30E4 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		38FC57631B813D4B002D30E4 /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		38FC57651B813D4B002D30E4 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38662B991B7E486F005973B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38662BE01B7E4B40005973B1 /* libsqlite3.dylib in Frameworks */,
+				38662BDE1B7E4B37005973B1 /* libz.dylib in Frameworks */,
+				38662BDC1B7E4B2C005973B1 /* SystemConfiguration.framework in Frameworks */,
+				38662BDA1B7E4B22005973B1 /* StoreKit.framework in Frameworks */,
+				38662BD81B7E4B1A005973B1 /* Security.framework in Frameworks */,
+				38662BD61B7E4B0A005973B1 /* QuartzCore.framework in Frameworks */,
+				38662BD41B7E4AFE005973B1 /* MobileCoreServices.framework in Frameworks */,
+				38662BD21B7E4ADA005973B1 /* CoreLocation.framework in Frameworks */,
+				38662BD01B7E4ACA005973B1 /* CoreGraphics.framework in Frameworks */,
+				38662BCE1B7E4AB7005973B1 /* CFNetwork.framework in Frameworks */,
+				38662BCC1B7E4AAC005973B1 /* AudioToolbox.framework in Frameworks */,
+				38662BC71B7E4A73005973B1 /* Parse.framework in Frameworks */,
+				38662BC81B7E4A73005973B1 /* ParseCrashReporting.framework in Frameworks */,
+				38662BCA1B7E4A73005973B1 /* ParseUI.framework in Frameworks */,
+				38662BC91B7E4A73005973B1 /* ParseFacebookUtils.framework in Frameworks */,
+				38662BC61B7E4A73005973B1 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38662BAE1B7E4870005973B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38662B931B7E486F005973B1 = {
+			isa = PBXGroup;
+			children = (
+				38FC57411B813D4B002D30E4 /* IQKeyBoardManager */,
+				38662BE11B7E4B6E005973B1 /* Frameworks */,
+				38662B9E1B7E4870005973B1 /* PatientOccupancy */,
+				38662BB41B7E4870005973B1 /* PatientOccupancyTests */,
+				38662B9D1B7E4870005973B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38662B9D1B7E4870005973B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38662B9C1B7E4870005973B1 /* PatientOccupancy.app */,
+				38662BB11B7E4870005973B1 /* PatientOccupancyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38662B9E1B7E4870005973B1 /* PatientOccupancy */ = {
+			isa = PBXGroup;
+			children = (
+				38662BA11B7E4870005973B1 /* AppDelegate.swift */,
+				38662BA51B7E4870005973B1 /* Main.storyboard */,
+				38662BA81B7E4870005973B1 /* Images.xcassets */,
+				38662BAA1B7E4870005973B1 /* LaunchScreen.xib */,
+				38662B9F1B7E4870005973B1 /* Supporting Files */,
+				38662BE31B7E4D6F005973B1 /* PatientOccupancy-Bridging-Header.h */,
+				38662BE61B7E51A5005973B1 /* TableViewController.swift */,
+				38662BE81B7E5E12005973B1 /* CAGradientLayer.swift */,
+				38528EEF1B7EC744000F02DA /* CustomTableViewCell.swift */,
+				38528EF11B7EC98C000F02DA /* String.swift */,
+				38528EF31B7F1047000F02DA /* LoginViewController.swift */,
+				3828A3321B7FD147004C84B9 /* Date.swift */,
+			);
+			path = PatientOccupancy;
+			sourceTree = "<group>";
+		};
+		38662B9F1B7E4870005973B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38662BA01B7E4870005973B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38662BB41B7E4870005973B1 /* PatientOccupancyTests */ = {
+			isa = PBXGroup;
+			children = (
+				38662BB71B7E4870005973B1 /* PatientOccupancyTests.swift */,
+				38662BB51B7E4870005973B1 /* Supporting Files */,
+			);
+			path = PatientOccupancyTests;
+			sourceTree = "<group>";
+		};
+		38662BB51B7E4870005973B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38662BB61B7E4870005973B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38662BE11B7E4B6E005973B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38662BC11B7E4A73005973B1 /* Bolts.framework */,
+				38662BC21B7E4A73005973B1 /* Parse.framework */,
+				38662BC31B7E4A73005973B1 /* ParseCrashReporting.framework */,
+				38662BC41B7E4A73005973B1 /* ParseFacebookUtils.framework */,
+				38662BC51B7E4A73005973B1 /* ParseUI.framework */,
+				38662BDF1B7E4B40005973B1 /* libsqlite3.dylib */,
+				38662BDD1B7E4B37005973B1 /* libz.dylib */,
+				38662BDB1B7E4B2C005973B1 /* SystemConfiguration.framework */,
+				38662BD91B7E4B22005973B1 /* StoreKit.framework */,
+				38662BD71B7E4B1A005973B1 /* Security.framework */,
+				38662BD51B7E4B0A005973B1 /* QuartzCore.framework */,
+				38662BD31B7E4AFE005973B1 /* MobileCoreServices.framework */,
+				38662BD11B7E4ADA005973B1 /* CoreLocation.framework */,
+				38662BCF1B7E4ACA005973B1 /* CoreGraphics.framework */,
+				38662BCD1B7E4AB7005973B1 /* CFNetwork.framework */,
+				38662BCB1B7E4AAC005973B1 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38FC57411B813D4B002D30E4 /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				38FC57421B813D4B002D30E4 /* Categories */,
+				38FC574D1B813D4B002D30E4 /* Constants */,
+				38FC57501B813D4B002D30E4 /* IQKeyboardManager.h */,
+				38FC57511B813D4B002D30E4 /* IQKeyboardManager.m */,
+				38FC57521B813D4B002D30E4 /* IQKeyboardReturnKeyHandler.h */,
+				38FC57531B813D4B002D30E4 /* IQKeyboardReturnKeyHandler.m */,
+				38FC57541B813D4B002D30E4 /* IQSegmentedNextPrevious */,
+				38FC57571B813D4B002D30E4 /* IQTextView */,
+				38FC575A1B813D4B002D30E4 /* IQToolbar */,
+				38FC57631B813D4B002D30E4 /* KeyboardManager.h */,
+				38FC57641B813D4B002D30E4 /* Resources */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		38FC57421B813D4B002D30E4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				38FC57431B813D4B002D30E4 /* IQNSArray+Sort.h */,
+				38FC57441B813D4B002D30E4 /* IQNSArray+Sort.m */,
+				38FC57451B813D4B002D30E4 /* IQUITextFieldView+Additions.h */,
+				38FC57461B813D4B002D30E4 /* IQUITextFieldView+Additions.m */,
+				38FC57471B813D4B002D30E4 /* IQUIView+Hierarchy.h */,
+				38FC57481B813D4B002D30E4 /* IQUIView+Hierarchy.m */,
+				38FC57491B813D4B002D30E4 /* IQUIViewController+Additions.h */,
+				38FC574A1B813D4B002D30E4 /* IQUIViewController+Additions.m */,
+				38FC574B1B813D4B002D30E4 /* IQUIWindow+Hierarchy.h */,
+				38FC574C1B813D4B002D30E4 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		38FC574D1B813D4B002D30E4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				38FC574E1B813D4B002D30E4 /* IQKeyboardManagerConstants.h */,
+				38FC574F1B813D4B002D30E4 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		38FC57541B813D4B002D30E4 /* IQSegmentedNextPrevious */ = {
+			isa = PBXGroup;
+			children = (
+				38FC57551B813D4B002D30E4 /* IQSegmentedNextPrevious.h */,
+				38FC57561B813D4B002D30E4 /* IQSegmentedNextPrevious.m */,
+			);
+			path = IQSegmentedNextPrevious;
+			sourceTree = "<group>";
+		};
+		38FC57571B813D4B002D30E4 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				38FC57581B813D4B002D30E4 /* IQTextView.h */,
+				38FC57591B813D4B002D30E4 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		38FC575A1B813D4B002D30E4 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				38FC575B1B813D4B002D30E4 /* IQBarButtonItem.h */,
+				38FC575C1B813D4B002D30E4 /* IQBarButtonItem.m */,
+				38FC575D1B813D4B002D30E4 /* IQTitleBarButtonItem.h */,
+				38FC575E1B813D4B002D30E4 /* IQTitleBarButtonItem.m */,
+				38FC575F1B813D4B002D30E4 /* IQToolbar.h */,
+				38FC57601B813D4B002D30E4 /* IQToolbar.m */,
+				38FC57611B813D4B002D30E4 /* IQUIView+IQKeyboardToolbar.h */,
+				38FC57621B813D4B002D30E4 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		38FC57641B813D4B002D30E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38FC57651B813D4B002D30E4 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38662B9B1B7E486F005973B1 /* PatientOccupancy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38662BBB1B7E4870005973B1 /* Build configuration list for PBXNativeTarget "PatientOccupancy" */;
+			buildPhases = (
+				38662B981B7E486F005973B1 /* Sources */,
+				38662B991B7E486F005973B1 /* Frameworks */,
+				38662B9A1B7E486F005973B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientOccupancy;
+			productName = PatientOccupancy;
+			productReference = 38662B9C1B7E4870005973B1 /* PatientOccupancy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38662BB01B7E4870005973B1 /* PatientOccupancyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38662BBE1B7E4870005973B1 /* Build configuration list for PBXNativeTarget "PatientOccupancyTests" */;
+			buildPhases = (
+				38662BAD1B7E4870005973B1 /* Sources */,
+				38662BAE1B7E4870005973B1 /* Frameworks */,
+				38662BAF1B7E4870005973B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38662BB31B7E4870005973B1 /* PBXTargetDependency */,
+			);
+			name = PatientOccupancyTests;
+			productName = PatientOccupancyTests;
+			productReference = 38662BB11B7E4870005973B1 /* PatientOccupancyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38662B941B7E486F005973B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = AbhiGupta;
+				TargetAttributes = {
+					38662B9B1B7E486F005973B1 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = EP7G2WA69T;
+					};
+					38662BB01B7E4870005973B1 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 38662B9B1B7E486F005973B1;
+					};
+				};
+			};
+			buildConfigurationList = 38662B971B7E486F005973B1 /* Build configuration list for PBXProject "PatientOccupancy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38662B931B7E486F005973B1;
+			productRefGroup = 38662B9D1B7E4870005973B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38662B9B1B7E486F005973B1 /* PatientOccupancy */,
+				38662BB01B7E4870005973B1 /* PatientOccupancyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38662B9A1B7E486F005973B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38662BA71B7E4870005973B1 /* Main.storyboard in Resources */,
+				38662BAC1B7E4870005973B1 /* LaunchScreen.xib in Resources */,
+				38FC57731B813D4B002D30E4 /* IQKeyboardManager.bundle in Resources */,
+				38662BA91B7E4870005973B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38662BAF1B7E4870005973B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38662B981B7E486F005973B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FC57661B813D4B002D30E4 /* IQNSArray+Sort.m in Sources */,
+				38FC576F1B813D4B002D30E4 /* IQBarButtonItem.m in Sources */,
+				38FC576E1B813D4B002D30E4 /* IQTextView.m in Sources */,
+				38FC576C1B813D4B002D30E4 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				38528EF41B7F1047000F02DA /* LoginViewController.swift in Sources */,
+				38FC57691B813D4B002D30E4 /* IQUIViewController+Additions.m in Sources */,
+				38FC576A1B813D4B002D30E4 /* IQUIWindow+Hierarchy.m in Sources */,
+				38528EF21B7EC98C000F02DA /* String.swift in Sources */,
+				3828A3331B7FD147004C84B9 /* Date.swift in Sources */,
+				38FC57681B813D4B002D30E4 /* IQUIView+Hierarchy.m in Sources */,
+				38FC576D1B813D4B002D30E4 /* IQSegmentedNextPrevious.m in Sources */,
+				38FC57721B813D4B002D30E4 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				38528EF01B7EC744000F02DA /* CustomTableViewCell.swift in Sources */,
+				38662BA21B7E4870005973B1 /* AppDelegate.swift in Sources */,
+				38FC57711B813D4B002D30E4 /* IQToolbar.m in Sources */,
+				38FC57701B813D4B002D30E4 /* IQTitleBarButtonItem.m in Sources */,
+				38FC57671B813D4B002D30E4 /* IQUITextFieldView+Additions.m in Sources */,
+				38FC576B1B813D4B002D30E4 /* IQKeyboardManager.m in Sources */,
+				38662BE71B7E51A5005973B1 /* TableViewController.swift in Sources */,
+				38662BE91B7E5E12005973B1 /* CAGradientLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38662BAD1B7E4870005973B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38662BB81B7E4870005973B1 /* PatientOccupancyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38662BB31B7E4870005973B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38662B9B1B7E486F005973B1 /* PatientOccupancy */;
+			targetProxy = 38662BB21B7E4870005973B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38662BA51B7E4870005973B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38662BA61B7E4870005973B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38662BAA1B7E4870005973B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38662BAB1B7E4870005973B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38662BB91B7E4870005973B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38662BBA1B7E4870005973B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38662BBC1B7E4870005973B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PatientOccupancy",
+				);
+				INFOPLIST_FILE = PatientOccupancy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PatientOccupancy/PatientOccupancy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		38662BBD1B7E4870005973B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PatientOccupancy",
+				);
+				INFOPLIST_FILE = PatientOccupancy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PatientOccupancy/PatientOccupancy-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		38662BBF1B7E4870005973B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PatientOccupancyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientOccupancy.app/PatientOccupancy";
+			};
+			name = Debug;
+		};
+		38662BC01B7E4870005973B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PatientOccupancyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientOccupancy.app/PatientOccupancy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38662B971B7E486F005973B1 /* Build configuration list for PBXProject "PatientOccupancy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38662BB91B7E4870005973B1 /* Debug */,
+				38662BBA1B7E4870005973B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38662BBB1B7E4870005973B1 /* Build configuration list for PBXNativeTarget "PatientOccupancy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38662BBC1B7E4870005973B1 /* Debug */,
+				38662BBD1B7E4870005973B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38662BBE1B7E4870005973B1 /* Build configuration list for PBXNativeTarget "PatientOccupancyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38662BBF1B7E4870005973B1 /* Debug */,
+				38662BC01B7E4870005973B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38662B941B7E486F005973B1 /* Project object */;
+}
